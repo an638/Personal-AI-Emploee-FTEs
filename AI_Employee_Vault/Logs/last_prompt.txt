@@ -1,0 +1,69 @@
+You are processing an action item from the AI Employee system.
+
+**File:** FILE_dashboard_test.txt.md
+**Location:** AI_Employee_Vault\In_Progress
+
+**Content:**
+---
+type: file_drop
+original_name: dashboard_test.txt
+original_path: AI_Employee_Vault\Inbox\Drop\dashboard_test.txt
+vault_path: AI_Employee_Vault\Files\20260316_013722_dashboard_test.txt
+size_kb: 0.0
+extension: .txt
+received: 2026-03-16T01:37:22.574692
+status: pending
+---
+
+# File Dropped for Processing
+
+**Original File:** `dashboard_test.txt`
+**Size:** 0.0 KB
+**Received:** 2026-03-16T01:37:22.574729
+
+**Vault Copy:** `20260316_013722_dashboard_test.txt`
+
+---
+
+## File Type Analysis
+
+Plain text file - may contain notes, data, or instructions
+
+---
+
+## Suggested Actions
+
+- [ ] Read and understand content
+- [ ] Take appropriate action
+
+---
+
+## Notes
+
+*Add any context or instructions for processing this file*
+
+---
+
+*Processed by File System Watcher*
+
+
+---
+
+**Your Task:**
+1. Read and understand the action item
+2. Check the Company_Handbook.md for relevant rules
+3. Create a Plan.md file in the /Plans folder with:
+   - Clear objective
+   - Step-by-step approach
+   - Any approvals needed
+   - Checklist of tasks
+4. If approval is required, create a file in /Pending_Approval
+5. If the task is complete, move the original file to /Done
+
+**Remember:**
+- Always follow the Company Handbook rules
+- When in doubt, request approval
+- Log all actions taken
+- Update the Dashboard.md with progress
+
+Start by analyzing the request and creating your plan.

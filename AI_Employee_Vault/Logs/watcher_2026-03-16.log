@@ -1,0 +1,31 @@
+2026-03-16 00:17:45,561 - FilesystemWatcher - INFO - Starting FilesystemWatcher
+2026-03-16 00:17:45,562 - FilesystemWatcher - INFO - Vault path: AI_Employee_Vault
+2026-03-16 00:17:45,562 - FilesystemWatcher - INFO - Watch path: AI_Employee_Vault\Inbox\Drop
+2026-03-16 00:17:45,562 - FilesystemWatcher - INFO - Using watchdog for real-time monitoring
+2026-03-16 00:18:53,925 - FilesystemWatcher - INFO - New file detected: Untitled.md
+2026-03-16 00:18:54,435 - FilesystemWatcher - INFO - Processed file: Untitled.md -> FILE_Untitled.md.md
+2026-03-16 00:21:56,023 - FilesystemWatcher - INFO - New file detected: testfile.md
+2026-03-16 00:21:56,538 - FilesystemWatcher - INFO - Processed file: testfile.md -> FILE_testfile.md.md
+2026-03-16 00:47:59,236 - FilesystemWatcher - INFO - New file detected: invoice
+2026-03-16 00:47:59,738 - FilesystemWatcher - INFO - File already processed: invoice
+2026-03-16 00:53:39,686 - FilesystemWatcher - INFO - New file detected: test_invoice.txt
+2026-03-16 00:53:40,196 - FilesystemWatcher - INFO - Processed file: test_invoice.txt -> FILE_test_invoice.txt.md
+2026-03-16 01:10:14,068 - FilesystemWatcher - INFO - File System Watcher stopped by user
+2026-03-16 01:11:00,864 - FilesystemWatcher - INFO - Starting FilesystemWatcher
+2026-03-16 01:11:00,864 - FilesystemWatcher - INFO - Vault path: AI_Employee_Vault
+2026-03-16 01:11:00,865 - FilesystemWatcher - INFO - Watch path: AI_Employee_Vault\Inbox\Drop
+2026-03-16 01:11:00,865 - FilesystemWatcher - INFO - Using watchdog for real-time monitoring
+2026-03-16 01:16:57,163 - FilesystemWatcher - INFO - New file detected: invoice.txt
+2026-03-16 01:16:57,668 - FilesystemWatcher - INFO - Processed file: invoice.txt -> FILE_invoice.txt.md
+2026-03-16 01:19:50,690 - FilesystemWatcher - INFO - New file detected: test2.txt
+2026-03-16 01:19:51,191 - FilesystemWatcher - INFO - File already processed: test2.txt
+2026-03-16 01:34:22,797 - FilesystemWatcher - INFO - File System Watcher stopped by user
+2026-03-16 01:34:31,378 - FilesystemWatcher - INFO - Starting FilesystemWatcher
+2026-03-16 01:34:31,378 - FilesystemWatcher - INFO - Vault path: AI_Employee_Vault
+2026-03-16 01:34:31,378 - FilesystemWatcher - INFO - Watch path: AI_Employee_Vault\Inbox\Drop
+2026-03-16 01:34:31,378 - FilesystemWatcher - INFO - Using watchdog for real-time monitoring
+2026-03-16 01:35:00,977 - FilesystemWatcher - INFO - New file detected: gaming.txt
+2026-03-16 01:35:01,483 - FilesystemWatcher - INFO - Processed file: gaming.txt -> FILE_gaming.txt.md
+2026-03-16 01:37:22,066 - FilesystemWatcher - INFO - New file detected: dashboard_test.txt
+2026-03-16 01:37:22,577 - FilesystemWatcher - INFO - Processed file: dashboard_test.txt -> FILE_dashboard_test.txt.md
+2026-03-16 01:40:33,262 - FilesystemWatcher - INFO - File System Watcher stopped by user

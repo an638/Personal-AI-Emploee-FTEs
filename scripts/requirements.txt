@@ -1,0 +1,13 @@
+# AI Employee - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# File system watching
+watchdog>=4.0.0
+
+# Gmail API (optional - for Gmail Watcher)
+google-api-python-client>=2.100.0
+google-auth-httplib2>=0.1.0
+google-auth-oauthlib>=1.0.0
+
+# Utilities
+python-dotenv>=1.0.0

@@ -1,0 +1,780 @@
+2026-03-16 00:23:58,165 - Orchestrator - INFO - Starting continuous mode (interval: 30s)
+2026-03-16 00:23:58,165 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:23:58,166 - Orchestrator - INFO - Processing: FILE_Untitled.md.md
+2026-03-16 00:23:58,180 - Orchestrator - ERROR - Claude Code not found: 'claude'. Install with: npm install -g @anthropic/claude-code
+2026-03-16 00:23:58,181 - Orchestrator - WARNING - No plan created for FILE_Untitled.md.md
+2026-03-16 00:23:58,181 - Orchestrator - INFO - Processing: FILE_testfile.md.md
+2026-03-16 00:23:58,181 - Orchestrator - ERROR - Error processing FILE_testfile.md.md: [WinError 3] The system cannot find the path specified
+2026-03-16 00:23:58,184 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:24:28,184 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:24:28,186 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:24:58,187 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:24:58,189 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:25:28,190 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:25:28,192 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:25:58,192 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:25:58,194 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:26:28,194 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:26:28,195 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:26:58,196 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:26:58,197 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:27:28,198 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:27:28,200 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:27:58,201 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:27:58,202 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:28:28,203 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:28:28,205 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:28:58,207 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:28:58,209 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:29:12,519 - Orchestrator - INFO - Starting continuous mode (interval: 30s)
+2026-03-16 00:29:12,520 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:29:12,520 - Orchestrator - INFO - Processing: FILE_testfile.md.md
+2026-03-16 00:29:12,531 - Orchestrator - ERROR - Qwen Code not found: 'qwen'. Make sure Qwen Code is installed and in PATH
+2026-03-16 00:29:12,532 - Orchestrator - WARNING - No plan created for FILE_testfile.md.md
+2026-03-16 00:29:12,533 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:29:28,210 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:29:28,212 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:29:42,534 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:29:42,536 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:29:58,213 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:29:58,214 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:30:12,538 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:30:12,540 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:30:28,215 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:30:28,216 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:30:42,541 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:30:42,543 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:30:58,217 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:30:58,218 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:31:12,544 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:31:12,546 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:31:28,220 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:31:28,222 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:31:42,547 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:31:42,548 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:31:58,249 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:31:58,250 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:32:12,549 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:32:12,551 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:32:28,252 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:32:28,253 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:32:42,552 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:32:42,553 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:32:58,254 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:32:58,255 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:33:12,555 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:33:12,556 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:33:28,256 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:33:28,258 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:33:42,557 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:33:42,558 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:33:58,260 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:33:58,262 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:34:12,559 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:34:12,561 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:34:24,442 - Orchestrator - INFO - Starting continuous mode (interval: 30s)
+2026-03-16 00:34:24,442 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:34:24,454 - Orchestrator - INFO - Dashboard updated
+2026-03-16 00:34:24,454 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:34:28,263 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:34:28,265 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:34:42,562 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:34:42,563 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:34:54,455 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:34:54,457 - Orchestrator - INFO - Dashboard updated
+2026-03-16 00:34:54,457 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:34:58,266 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:34:58,269 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:35:12,564 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:35:12,566 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:35:24,458 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:35:24,464 - Orchestrator - INFO - Dashboard updated
+2026-03-16 00:35:24,464 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:35:28,271 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:35:28,272 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:35:42,567 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:35:42,569 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:35:54,466 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:35:54,473 - Orchestrator - INFO - Dashboard updated
+2026-03-16 00:35:54,474 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:35:58,274 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:35:58,276 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:36:12,570 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:36:12,572 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:36:24,476 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:36:24,483 - Orchestrator - INFO - Dashboard updated
+2026-03-16 00:36:24,485 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:36:28,278 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:36:28,280 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:36:42,573 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:36:42,575 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:36:54,487 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:36:54,497 - Orchestrator - INFO - Dashboard updated
+2026-03-16 00:36:54,498 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:36:58,281 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:36:58,283 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:37:12,576 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:37:12,578 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:37:24,500 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:37:24,507 - Orchestrator - INFO - Dashboard updated
+2026-03-16 00:37:24,508 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:37:28,285 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:37:28,287 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:37:42,580 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:37:42,581 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:37:54,510 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:37:54,513 - Orchestrator - INFO - Dashboard updated
+2026-03-16 00:37:54,514 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:37:58,288 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:37:58,290 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:38:12,583 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:38:12,584 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:38:24,515 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:38:24,522 - Orchestrator - INFO - Dashboard updated
+2026-03-16 00:38:24,522 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:38:28,292 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:38:28,293 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:38:42,586 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:38:42,587 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:38:54,524 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:38:54,530 - Orchestrator - INFO - Dashboard updated
+2026-03-16 00:38:54,531 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:38:58,294 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:38:58,295 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:39:12,589 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:39:12,590 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:39:24,532 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:39:24,537 - Orchestrator - INFO - Dashboard updated
+2026-03-16 00:39:24,538 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:39:28,297 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:39:28,298 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:39:42,591 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:39:42,592 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:39:54,540 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:39:54,544 - Orchestrator - INFO - Dashboard updated
+2026-03-16 00:39:54,545 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:39:58,300 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:39:58,301 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:40:12,594 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:40:12,595 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:40:24,546 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:40:24,551 - Orchestrator - INFO - Dashboard updated
+2026-03-16 00:40:24,552 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:40:28,302 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:40:28,304 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:40:42,597 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:40:42,598 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:40:54,554 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:40:54,559 - Orchestrator - INFO - Dashboard updated
+2026-03-16 00:40:54,560 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:40:58,305 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:40:58,306 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:41:12,599 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:41:12,600 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:41:24,561 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:41:24,565 - Orchestrator - INFO - Dashboard updated
+2026-03-16 00:41:24,565 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:41:28,308 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:41:28,309 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:41:42,602 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:41:42,603 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:41:54,566 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:41:54,570 - Orchestrator - INFO - Dashboard updated
+2026-03-16 00:41:54,571 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:41:58,311 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:41:58,312 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:42:12,604 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:42:12,606 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:42:24,572 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:42:24,577 - Orchestrator - INFO - Dashboard updated
+2026-03-16 00:42:24,577 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:42:28,314 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:42:28,315 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:42:42,607 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:42:42,608 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:42:54,579 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:42:54,584 - Orchestrator - INFO - Dashboard updated
+2026-03-16 00:42:54,585 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:42:58,316 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:42:58,318 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:43:12,609 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:43:12,611 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:43:24,586 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:43:24,590 - Orchestrator - INFO - Dashboard updated
+2026-03-16 00:43:24,591 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:43:28,319 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:43:28,321 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:43:42,612 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:43:42,614 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:43:54,592 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:43:54,598 - Orchestrator - INFO - Dashboard updated
+2026-03-16 00:43:54,599 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:43:58,322 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:43:58,324 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:44:12,615 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:44:12,616 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:44:24,600 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:44:24,603 - Orchestrator - INFO - Dashboard updated
+2026-03-16 00:44:24,604 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:44:28,324 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:44:28,325 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:44:42,617 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:44:42,618 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:44:54,605 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:44:54,609 - Orchestrator - INFO - Dashboard updated
+2026-03-16 00:44:54,609 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:44:58,328 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:44:58,329 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:45:12,620 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:45:12,622 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:46:09,855 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:46:09,856 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:46:09,856 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:46:09,866 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:46:09,866 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:46:09,867 - Orchestrator - INFO - Dashboard updated
+2026-03-16 00:46:09,869 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:46:39,868 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:46:39,868 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:46:39,869 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:46:39,870 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:46:39,874 - Orchestrator - INFO - Dashboard updated
+2026-03-16 00:46:39,874 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:47:09,870 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:47:09,872 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:47:09,875 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:47:09,881 - Orchestrator - INFO - Dashboard updated
+2026-03-16 00:47:09,882 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:47:39,874 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:47:39,876 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:47:39,876 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:47:39,884 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:47:39,890 - Orchestrator - INFO - Dashboard updated
+2026-03-16 00:47:39,891 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:48:09,877 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:48:09,879 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:48:09,879 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:48:09,892 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:48:09,896 - Orchestrator - INFO - Dashboard updated
+2026-03-16 00:48:09,897 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:48:39,880 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:48:39,882 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:48:39,883 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:48:39,898 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:48:39,904 - Orchestrator - INFO - Dashboard updated
+2026-03-16 00:48:39,905 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:49:09,884 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:49:09,885 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:49:09,885 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:49:09,906 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:49:09,912 - Orchestrator - INFO - Dashboard updated
+2026-03-16 00:49:09,913 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:49:39,887 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:49:39,889 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:49:39,914 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:49:39,920 - Orchestrator - INFO - Dashboard updated
+2026-03-16 00:49:39,921 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:50:09,890 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:50:09,892 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:50:09,893 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:50:09,923 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:50:09,928 - Orchestrator - INFO - Dashboard updated
+2026-03-16 00:50:09,929 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:50:39,894 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:50:39,896 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:50:39,931 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:50:39,937 - Orchestrator - INFO - Dashboard updated
+2026-03-16 00:50:39,938 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:51:09,897 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:51:09,897 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:51:09,898 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:51:09,898 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:51:09,940 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:51:09,943 - Orchestrator - INFO - Dashboard updated
+2026-03-16 00:51:09,943 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:51:39,899 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:51:39,901 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:51:39,944 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:51:39,949 - Orchestrator - INFO - Dashboard updated
+2026-03-16 00:51:39,950 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:52:09,902 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:52:09,903 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:52:09,903 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:52:09,952 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:52:09,957 - Orchestrator - INFO - Dashboard updated
+2026-03-16 00:52:09,958 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:52:39,904 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:52:39,905 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:52:39,905 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:52:39,960 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:52:39,962 - Orchestrator - INFO - Dashboard updated
+2026-03-16 00:52:39,963 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:53:09,906 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:53:09,908 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:53:09,908 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:53:09,963 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:53:09,967 - Orchestrator - INFO - Dashboard updated
+2026-03-16 00:53:09,968 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:53:39,909 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:53:39,911 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:53:39,912 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:53:39,969 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:53:39,974 - Orchestrator - INFO - Dashboard updated
+2026-03-16 00:53:39,975 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:54:09,913 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:54:09,915 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:54:09,915 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:54:09,977 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:54:09,979 - Orchestrator - INFO - Processing: FILE_test_invoice.txt.md
+2026-03-16 00:54:26,872 - Orchestrator - WARNING - No plan created for FILE_test_invoice.txt.md
+2026-03-16 00:54:26,874 - Orchestrator - INFO - Dashboard updated
+2026-03-16 00:54:26,874 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:54:39,917 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:54:39,918 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:54:39,918 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:54:56,876 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:54:56,878 - Orchestrator - INFO - Processing: FILE_test_invoice.txt.md
+2026-03-16 00:55:09,216 - Orchestrator - WARNING - No plan created for FILE_test_invoice.txt.md
+2026-03-16 00:55:09,219 - Orchestrator - INFO - Dashboard updated
+2026-03-16 00:55:09,220 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:55:09,920 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:55:09,921 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:55:09,921 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:56:57,075 - Orchestrator - INFO - Starting continuous mode (interval: 30s)
+2026-03-16 00:56:57,076 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:56:57,076 - Orchestrator - INFO - Processing: FILE_test_invoice.txt.md
+2026-03-16 00:56:57,078 - Orchestrator - ERROR - Qwen Code not found: 'qwen'. Make sure Qwen Code is installed and in PATH
+2026-03-16 00:56:57,079 - Orchestrator - WARNING - No plan created for FILE_test_invoice.txt.md
+2026-03-16 00:56:57,080 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:57:27,081 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:57:27,082 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:57:57,083 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:57:57,085 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:58:27,086 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:58:27,088 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:58:57,089 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:58:57,091 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 00:59:20,946 - Orchestrator - INFO - Orchestrator stopped by user
+2026-03-16 00:59:48,317 - Orchestrator - INFO - Starting continuous mode (interval: 30s)
+2026-03-16 00:59:48,317 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 00:59:48,320 - Orchestrator - INFO - Dashboard updated
+2026-03-16 00:59:48,320 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:00:18,321 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:00:18,326 - Orchestrator - INFO - Dashboard updated
+2026-03-16 01:00:18,327 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:00:48,328 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:00:48,334 - Orchestrator - INFO - Dashboard updated
+2026-03-16 01:00:48,335 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:01:18,336 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:01:18,338 - Orchestrator - INFO - Dashboard updated
+2026-03-16 01:01:18,338 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:01:48,339 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:01:48,342 - Orchestrator - INFO - Dashboard updated
+2026-03-16 01:01:48,342 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:02:18,344 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:02:18,350 - Orchestrator - INFO - Dashboard updated
+2026-03-16 01:02:18,351 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:02:48,353 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:02:48,358 - Orchestrator - INFO - Dashboard updated
+2026-03-16 01:02:48,360 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:03:18,361 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:03:18,367 - Orchestrator - INFO - Dashboard updated
+2026-03-16 01:03:18,368 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:03:48,370 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:03:48,372 - Orchestrator - INFO - Dashboard updated
+2026-03-16 01:03:48,372 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:04:18,373 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:04:18,378 - Orchestrator - INFO - Dashboard updated
+2026-03-16 01:04:18,379 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:04:48,380 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:04:48,385 - Orchestrator - INFO - Dashboard updated
+2026-03-16 01:04:48,386 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:05:18,387 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:05:18,393 - Orchestrator - INFO - Dashboard updated
+2026-03-16 01:05:18,394 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:05:48,395 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:05:48,401 - Orchestrator - INFO - Dashboard updated
+2026-03-16 01:05:48,402 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:06:18,404 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:06:18,405 - Orchestrator - INFO - Processing: MANUAL_test.md
+2026-03-16 01:06:18,409 - Orchestrator - ERROR - Qwen Code not found: 'C:\Users\DELL\AppData\Roaming\npm\qwen'. Make sure Qwen Code is installed and in PATH
+2026-03-16 01:06:18,411 - Orchestrator - WARNING - No plan created for MANUAL_test.md
+2026-03-16 01:06:18,412 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:06:48,413 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:06:48,416 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:07:18,417 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:07:18,418 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:07:48,420 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:07:48,421 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:08:18,423 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:08:18,424 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:08:48,426 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:08:48,427 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:09:18,428 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:09:18,430 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:09:48,432 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:09:48,432 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:09:52,748 - Orchestrator - INFO - Orchestrator stopped by user
+2026-03-16 01:11:48,815 - Orchestrator - INFO - Starting continuous mode (interval: 30s)
+2026-03-16 01:11:48,815 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:11:48,816 - Orchestrator - INFO - Processing: MANUAL_test.md
+2026-03-16 01:11:48,824 - Orchestrator - ERROR - Qwen Code not found: 'C:\Users\DELL\AppData\Roaming\npm\qwen'. Make sure Qwen Code is installed and in PATH
+2026-03-16 01:11:48,825 - Orchestrator - WARNING - No plan created for MANUAL_test.md
+2026-03-16 01:11:48,825 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:12:18,826 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:12:18,828 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:12:48,829 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:12:48,831 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:13:18,832 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:13:18,833 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:13:48,834 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:13:48,835 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:13:55,619 - Orchestrator - INFO - Orchestrator stopped by user
+2026-03-16 01:14:07,508 - Orchestrator - INFO - Starting continuous mode (interval: 30s)
+2026-03-16 01:14:07,508 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:14:07,510 - Orchestrator - INFO - Dashboard updated
+2026-03-16 01:14:07,510 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:14:37,511 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:14:37,516 - Orchestrator - INFO - Dashboard updated
+2026-03-16 01:14:37,517 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:15:07,519 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:15:07,525 - Orchestrator - INFO - Dashboard updated
+2026-03-16 01:15:07,526 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:15:37,527 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:15:37,533 - Orchestrator - INFO - Dashboard updated
+2026-03-16 01:15:37,534 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:16:07,535 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:16:07,542 - Orchestrator - INFO - Dashboard updated
+2026-03-16 01:16:07,543 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:16:37,545 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:16:37,550 - Orchestrator - INFO - Dashboard updated
+2026-03-16 01:16:37,551 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:17:07,552 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:17:07,554 - Orchestrator - INFO - Processing: FILE_invoice.txt.md
+2026-03-16 01:17:07,559 - Orchestrator - ERROR - Qwen Code not found: 'qwen'. Make sure Qwen Code is installed and in PATH
+2026-03-16 01:17:07,561 - Orchestrator - WARNING - No plan created for FILE_invoice.txt.md
+2026-03-16 01:17:07,563 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:17:37,564 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:17:37,565 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:18:07,566 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:18:07,568 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:18:37,569 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:18:37,569 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:19:07,570 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:19:07,571 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:19:20,599 - Orchestrator - INFO - Orchestrator stopped by user
+2026-03-16 01:19:31,947 - Orchestrator - INFO - Starting continuous mode (interval: 30s)
+2026-03-16 01:19:31,948 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:19:31,949 - Orchestrator - INFO - Dashboard updated
+2026-03-16 01:19:31,950 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:20:01,951 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:20:01,953 - Orchestrator - INFO - Dashboard updated
+2026-03-16 01:20:01,953 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:20:31,954 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:20:31,960 - Orchestrator - INFO - Dashboard updated
+2026-03-16 01:20:31,961 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:21:01,962 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:21:01,966 - Orchestrator - INFO - Dashboard updated
+2026-03-16 01:21:01,967 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:21:31,968 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:21:31,974 - Orchestrator - INFO - Dashboard updated
+2026-03-16 01:21:31,975 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:22:01,977 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:22:01,982 - Orchestrator - INFO - Dashboard updated
+2026-03-16 01:22:01,983 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:22:31,984 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:22:31,985 - Orchestrator - INFO - Processing: TEST_QWEN_INTEGRATION.md
+2026-03-16 01:22:31,987 - Orchestrator - ERROR - Qwen Code not found: 'qwen'. Make sure Qwen Code is installed and in PATH
+2026-03-16 01:22:31,989 - Orchestrator - WARNING - No plan created for TEST_QWEN_INTEGRATION.md
+2026-03-16 01:22:31,989 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:23:01,990 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:23:01,991 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:23:31,993 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:23:31,994 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:24:01,995 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:24:01,998 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:24:24,709 - Orchestrator - INFO - Orchestrator stopped by user
+2026-03-16 01:24:36,638 - Orchestrator - INFO - Starting continuous mode (interval: 30s)
+2026-03-16 01:24:36,638 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:24:36,640 - Orchestrator - INFO - Dashboard updated
+2026-03-16 01:24:36,640 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:25:06,641 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:25:06,647 - Orchestrator - INFO - Dashboard updated
+2026-03-16 01:25:06,647 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:25:36,649 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:25:36,654 - Orchestrator - INFO - Dashboard updated
+2026-03-16 01:25:36,655 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:26:06,657 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:26:06,659 - Orchestrator - INFO - Processing: TEST_QWEN_INTEGRATION.md
+2026-03-16 01:26:06,663 - Orchestrator - ERROR - Qwen Code not found. Make sure Node.js and npm are installed.
+2026-03-16 01:26:06,666 - Orchestrator - WARNING - No plan created for TEST_QWEN_INTEGRATION.md
+2026-03-16 01:26:06,668 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:26:36,669 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:26:36,671 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:27:06,673 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:27:06,674 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:27:06,791 - Orchestrator - INFO - Orchestrator stopped by user
+2026-03-16 01:27:08,619 - Orchestrator - INFO - Starting continuous mode (interval: 30s)
+2026-03-16 01:27:08,620 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:27:08,621 - Orchestrator - INFO - Dashboard updated
+2026-03-16 01:27:08,622 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:27:38,623 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:27:38,627 - Orchestrator - INFO - Dashboard updated
+2026-03-16 01:27:38,628 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:28:08,629 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:28:08,636 - Orchestrator - INFO - Dashboard updated
+2026-03-16 01:28:08,637 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:28:23,586 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:28:23,587 - Orchestrator - INFO - Processing: QWEN_TEST_NOW.md
+2026-03-16 01:28:23,588 - Orchestrator - ERROR - Qwen Code not found. Make sure Node.js and npm are installed.
+2026-03-16 01:28:23,588 - Orchestrator - WARNING - No plan created for QWEN_TEST_NOW.md
+2026-03-16 01:28:23,589 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:28:38,638 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:28:38,642 - Orchestrator - INFO - Dashboard updated
+2026-03-16 01:28:38,642 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:28:44,275 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:28:44,276 - Orchestrator - INFO - Dashboard updated
+2026-03-16 01:28:44,277 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:29:08,643 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:29:08,645 - Orchestrator - INFO - Dashboard updated
+2026-03-16 01:29:08,645 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:29:35,626 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:29:35,626 - Orchestrator - INFO - Processing: QWEN_TEST_NOW.md
+2026-03-16 01:29:35,627 - Orchestrator - ERROR - Error invoking Qwen: [Errno 2] No such file or directory: 'AI_Employee_Vault\\Logs\\last_prompt.txt'
+2026-03-16 01:29:35,628 - Orchestrator - WARNING - No plan created for QWEN_TEST_NOW.md
+2026-03-16 01:29:35,628 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:29:38,646 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:29:38,654 - Orchestrator - INFO - Dashboard updated
+2026-03-16 01:29:38,654 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:29:54,692 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:29:54,692 - Orchestrator - INFO - Processing: QWEN_TEST_NOW.md
+2026-03-16 01:29:54,694 - Orchestrator - ERROR - Error invoking Qwen: [Errno 2] No such file or directory: 'AI_Employee_Vault\\Logs\\last_prompt.txt'
+2026-03-16 01:29:54,694 - Orchestrator - WARNING - No plan created for QWEN_TEST_NOW.md
+2026-03-16 01:29:54,695 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:30:08,655 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:30:08,658 - Orchestrator - INFO - Dashboard updated
+2026-03-16 01:30:08,658 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:30:11,826 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:30:11,827 - Orchestrator - INFO - Processing: QWEN_TEST_NOW.md
+2026-03-16 01:30:11,829 - Orchestrator - INFO - Invoking Qwen using node with full path...
+2026-03-16 01:30:11,829 - Orchestrator - INFO - Running: node "C:\Users\DELL\AppData\Roaming\npm\node_modules\@qwen-code\qwen-code\cli.js" -p "You are processing an action item from the AI Employee system.
+
+**File:** QWEN_TEST_NOW.md
+**Location:** AI_Employee_Vault\In_Progress
+
+**Content:**
+---
+type: test
+status: pending
+---
+
+# Qwen Test
+
+Create a plan file in /Plans folder.
+
+
+---
+
+**Your Task:**
+1. Read and understand the action item
+2. Check the Company_Handbook.md for relevant rules
+3. Create a Plan.md file in the /Plans folder with:
+   - Clear objective
+   - Step-by-step approach
+   - Any approvals needed
+   - Checklist of tasks
+4. If approval is required, create a file in /Pending_Approval
+5. If the task is complete, move the original file to /Done
+
+**Remember:**
+- Always follow the Company Handbook rules
+- When in doubt, request approval
+- Log all actions taken
+- Update the Dashboard.md with progress
+
+Start by analyzing the request and creating your plan.
+"
+2026-03-16 01:30:23,923 - Orchestrator - INFO - Qwen return code: 0
+2026-03-16 01:30:23,923 - Orchestrator - INFO - Qwen output: Understood. I'm ready to process an action item from the AI Employee system.
+
+Please provide the action item details - for example:
+- A file in `/Needs_Action` that needs processing
+- A task description or goal
+- Specific instructions for what needs to be done
+
+What would you like me to work on?...
+2026-03-16 01:30:23,925 - Orchestrator - WARNING - No plan created for QWEN_TEST_NOW.md
+2026-03-16 01:30:23,927 - Orchestrator - INFO - Dashboard updated
+2026-03-16 01:30:23,928 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:30:38,659 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:30:38,662 - Orchestrator - INFO - Processing: QWEN_TEST_NOW.md
+2026-03-16 01:30:38,667 - Orchestrator - ERROR - Qwen Code not found. Make sure Node.js and npm are installed.
+2026-03-16 01:30:38,669 - Orchestrator - WARNING - No plan created for QWEN_TEST_NOW.md
+2026-03-16 01:30:38,671 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:31:01,673 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:31:01,673 - Orchestrator - INFO - Processing: QWEN_TEST_NOW.md
+2026-03-16 01:31:01,674 - Orchestrator - INFO - Invoking Qwen using node with full path...
+2026-03-16 01:31:01,675 - Orchestrator - INFO - Running: node "C:\Users\DELL\AppData\Roaming\npm\node_modules\@qwen-code\qwen-code\cli.js" -y -p "You are processing an action item from the AI Employee system.
+
+**File:** QWEN_TEST_NOW.md
+**Location:** AI_Employee_Vault\In_Progress
+
+**Content:**
+---
+type: test
+status: pending
+---
+
+# Qwen Test
+
+Create a plan file in /Plans folder.
+
+
+---
+
+**Your Task:**
+1. Read and understand the action item
+2. Check the Company_Handbook.md for relevant rules
+3. Create a Plan.md file in the /Plans folder with:
+   - Clear objective
+   - Step-by-step approach
+   - Any approvals needed
+   - Checklist of tasks
+4. If approval is required, create a file in /Pending_Approval
+5. If the task is complete, move the original file to /Done
+
+**Remember:**
+- Always follow the Company Handbook rules
+- When in doubt, request approval
+- Log all actions taken
+- Update the Dashboard.md with progress
+
+Start by analyzing the request and creating your plan.
+"
+2026-03-16 01:31:08,673 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:31:08,674 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:31:11,098 - Orchestrator - INFO - Qwen return code: 0
+2026-03-16 01:31:11,098 - Orchestrator - INFO - Qwen output: Understood. I'm ready to process an action item from the AI Employee system.
+
+What would you like me to do? For example:
+- Process files in `/Needs_Action`
+- Review pending approvals in `/Pending_Approval`
+- Generate a briefing or report
+- Move completed items to `/Done`
+- Something else specific...
+2026-03-16 01:31:11,100 - Orchestrator - WARNING - No plan created for QWEN_TEST_NOW.md
+2026-03-16 01:31:11,103 - Orchestrator - INFO - Dashboard updated
+2026-03-16 01:31:11,103 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:31:38,675 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:31:38,677 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:31:42,820 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:31:42,820 - Orchestrator - INFO - Processing: QWEN_TEST_NOW.md
+2026-03-16 01:31:42,821 - Orchestrator - INFO - Invoking Qwen using node with full path...
+2026-03-16 01:31:42,822 - Orchestrator - INFO - Running: echo You are processing an action item from the AI Employee system.  **File:** QWEN_TEST_NOW.md **Location:** AI_Employee_Vault\In_Progress  **Content:** --- type: test status: pending ---  # Qwen Test  Create a plan file in /Plans folder.   ---  **Your Task:** 1. Read and understand the action item 2. Check the Company_Handbook.md for relevant rules 3. Create a Plan.md file in the /Plans folder with:    - Clear objective    - Step-by-step approach    - Any approvals needed    - Checklist of tasks 4. If approval is required, create a file in /Pending_Approval 5. If the task is complete, move the original file to /Done  **Remember:** - Always follow the Company Handbook rules - When in doubt, request approval - Log all actions taken - Update the Dashboard.md with progress  Start by analyzing the request and creating your plan.  | node "C:\Users\DELL\AppData\Roaming\npm\node_modules\@qwen-code\qwen-code\cli.js" -y
+2026-03-16 01:32:08,678 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:32:08,679 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:32:27,391 - Orchestrator - INFO - Qwen return code: 0
+2026-03-16 01:32:27,391 - Orchestrator - INFO - Qwen output: **Task Complete ✅**
+
+| Action | Status |
+|--------|--------|
+| Read QWEN_TEST_NOW.md | ✅ |
+| Reviewed Company Handbook | ✅ |
+| Created Plan.md in /Plans | ✅ |
+| Approval assessment | ✅ None needed |
+| Moved QWEN_TEST_NOW.md to /Done | ✅ |
+| Updated Dashboard.md | ✅ |
+
+**Files Created/Modified:**
+- `Plans/Plan.md` - Created (status: completed)
+- `Dashboard.md` - Updated with activity log
+- `QWEN_TEST_NOW.md` - Moved to /Done...
+2026-03-16 01:32:27,393 - Orchestrator - WARNING - No plan created for QWEN_TEST_NOW.md
+2026-03-16 01:32:27,395 - Orchestrator - INFO - Dashboard updated
+2026-03-16 01:32:27,395 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:32:38,679 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:32:38,680 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:33:08,681 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:33:08,683 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:33:38,684 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:33:38,685 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:34:08,686 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:34:08,687 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:34:20,231 - Orchestrator - INFO - Orchestrator stopped by user
+2026-03-16 01:34:42,484 - Orchestrator - INFO - Starting continuous mode (interval: 30s)
+2026-03-16 01:34:42,484 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:34:42,486 - Orchestrator - INFO - Dashboard updated
+2026-03-16 01:34:42,486 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:35:12,487 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:35:12,489 - Orchestrator - INFO - Processing: FILE_gaming.txt.md
+2026-03-16 01:35:12,496 - Orchestrator - INFO - Invoking Qwen using node with full path...
+2026-03-16 01:35:12,497 - Orchestrator - INFO - Running: echo You are processing an action item from the AI Employee system.  **File:** FILE_gaming.txt.md **Location:** AI_Employee_Vault\In_Progress  **Content:** --- type: file_drop original_name: gaming.txt original_path: AI_Employee_Vault\Inbox\Drop\gaming.txt vault_path: AI_Employee_Vault\Files\20260316_013501_gaming.txt size_kb: 0.0 extension: .txt received: 2026-03-16T01:35:01.482102 status: pending ---  # File Dropped for Processing  **Original File:** `gaming.txt` **Size:** 0.0 KB **Received:** 2026-03-16T01:35:01.482118  **Vault Copy:** `20260316_013501_gaming.txt`  ---  ## File Type Analysis  Plain text file - may contain notes, data, or instructions  ---  ## Suggested Actions  - [ ] Read and understand content - [ ] Take appropriate action  ---  ## Notes  *Add any context or instructions for processing this file*  ---  *Processed by File System Watcher*   ---  **Your Task:** 1. Read and understand the action item 2. Check the Company_Handbook.md for relevant rules 3. Create a Plan.md file in the /Plans folder with:    - Clear objective    - Step-by-step approach    - Any approvals needed    - Checklist of tasks 4. If approval is required, create a file in /Pending_Approval 5. If the task is complete, move the original file to /Done  **Remember:** - Always follow the Company Handbook rules - When in doubt, request approval - Log all actions taken - Update the Dashboard.md with progress  Start by analyzing the request and creating your plan.  | node "C:\Users\DELL\AppData\Roaming\npm\node_modules\@qwen-code\qwen-code\cli.js" -y
+2026-03-16 01:36:07,425 - Orchestrator - INFO - Qwen return code: 0
+2026-03-16 01:36:07,426 - Orchestrator - INFO - Qwen output: **Task Complete.** Here's what was done:
+
+| Step | Action |
+|------|--------|
+| ✅ | Analyzed action item for `gaming.txt` |
+| ✅ | Reviewed Company Handbook - no approval needed for empty file |
+| ✅ | Created plan: `Plans/2026-03-16_Process_gaming_txt.md` |
+| ✅ | Updated action item with processing log |
+| ✅ | Moved `FILE_gaming.txt.md` to `/Done` |
+| ✅ | Updated `Dashboard.md` with activity |
+
+**Summary:** The `gaming.txt` file was empty (0.0 KB). No processing was required beyond ar...
+2026-03-16 01:36:07,426 - Orchestrator - WARNING - No plan created for FILE_gaming.txt.md
+2026-03-16 01:36:07,428 - Orchestrator - INFO - Dashboard updated
+2026-03-16 01:36:07,429 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:36:37,430 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:36:37,437 - Orchestrator - INFO - Dashboard updated
+2026-03-16 01:36:37,438 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:37:07,439 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:37:07,448 - Orchestrator - INFO - Dashboard updated
+2026-03-16 01:37:07,448 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:37:11,713 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:37:11,715 - Orchestrator - INFO - Dashboard updated
+2026-03-16 01:37:11,715 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:37:33,351 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:37:33,352 - Orchestrator - INFO - Processing: FILE_dashboard_test.txt.md
+2026-03-16 01:37:33,353 - Orchestrator - INFO - Invoking Qwen using node with full path...
+2026-03-16 01:37:33,353 - Orchestrator - INFO - Running: echo You are processing an action item from the AI Employee system.  **File:** FILE_dashboard_test.txt.md **Location:** AI_Employee_Vault\In_Progress  **Content:** --- type: file_drop original_name: dashboard_test.txt original_path: AI_Employee_Vault\Inbox\Drop\dashboard_test.txt vault_path: AI_Employee_Vault\Files\20260316_013722_dashboard_test.txt size_kb: 0.0 extension: .txt received: 2026-03-16T01:37:22.574692 status: pending ---  # File Dropped for Processing  **Original File:** `dashboard_test.txt` **Size:** 0.0 KB **Received:** 2026-03-16T01:37:22.574729  **Vault Copy:** `20260316_013722_dashboard_test.txt`  ---  ## File Type Analysis  Plain text file - may contain notes, data, or instructions  ---  ## Suggested Actions  - [ ] Read and understand content - [ ] Take appropriate action  ---  ## Notes  *Add any context or instructions for processing this file*  ---  *Processed by File System Watcher*   ---  **Your Task:** 1. Read and understand the action item 2. Check the Company_Handbook.md for relevant rules 3. Create a Plan.md file in the /Plans folder with:    - Clear objective    - Step-by-step approach    - Any approvals needed    - Checklist of tasks 4. If approval is required, create a file in /Pending_Approval 5. If the task is complete, move the original file to /Done  **Remember:** - Always follow the Company Handbook rules - When in doubt, request approval - Log all actions taken - Update the Dashboard.md with progress  Start by analyzing the request and creating your plan.  | node "C:\Users\DELL\AppData\Roaming\npm\node_modules\@qwen-code\qwen-code\cli.js" -y
+2026-03-16 01:37:37,449 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:37:37,455 - Orchestrator - INFO - Dashboard updated
+2026-03-16 01:37:37,456 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:38:07,457 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:38:07,460 - Orchestrator - INFO - Dashboard updated
+2026-03-16 01:38:07,460 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:38:26,746 - Orchestrator - INFO - Qwen return code: 0
+2026-03-16 01:38:26,746 - Orchestrator - INFO - Qwen output: **✅ Task Complete**
+
+## Summary
+
+| Item | Status |
+|------|--------|
+| **File Analyzed** | `dashboard_test.txt` - simple test text |
+| **Company Handbook Reviewed** | No approval required (test file, no sensitive content) |
+| **Plan Created** | `/Plans/Plan_20260316_dashboard_test_processing.md` |
+| **Log Entry** | `/Logs/20260316_dashboard_test_processing.md` |
+| **Dashboard Updated** | Activity recorded |
+| **Action Item** | Moved to `/Done/` |
+
+**Workflow validated successfully** - The AI E...
+2026-03-16 01:38:26,748 - Orchestrator - WARNING - No plan created for FILE_dashboard_test.txt.md
+2026-03-16 01:38:26,750 - Orchestrator - INFO - Dashboard updated
+2026-03-16 01:38:26,751 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:38:37,460 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:38:37,465 - Orchestrator - INFO - Dashboard updated
+2026-03-16 01:38:37,465 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:39:07,466 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:39:07,474 - Orchestrator - INFO - Dashboard updated
+2026-03-16 01:39:07,476 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:39:37,477 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:39:37,480 - Orchestrator - INFO - Dashboard updated
+2026-03-16 01:39:37,481 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:40:07,482 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:40:07,489 - Orchestrator - INFO - Dashboard updated
+2026-03-16 01:40:07,490 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:40:37,492 - Orchestrator - INFO - Starting processing cycle
+2026-03-16 01:40:37,498 - Orchestrator - INFO - Dashboard updated
+2026-03-16 01:40:37,499 - Orchestrator - INFO - Processing cycle complete
+2026-03-16 01:40:38,434 - Orchestrator - INFO - Orchestrator stopped by user

@@ -1,0 +1,12 @@
+
+      1 Please process this invoice and create a detailed plan.
+      2
+      3 Invoice Details:
+      4 - Client: ABC Company
+      5 - Amount: $500
+      6 - Due Date: 2026-01-31
+      7
+      8 Tasks:
+      9 1. Review the invoice
+     10 2. Create approval request
+     11 3. Send to client

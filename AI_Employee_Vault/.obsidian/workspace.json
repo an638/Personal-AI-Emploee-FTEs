@@ -1,0 +1,225 @@
+{
+  "main": {
+    "id": "121608183cdfc2b0",
+    "type": "split",
+    "children": [
+      {
+        "id": "52dd9d6850a1d373",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a172a405470ca242",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dashboard.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Dashboard"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e84a8b78b8865d75",
+    "type": "split",
+    "children": [
+      {
+        "id": "446f245e4a8ecbac",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0c36d7b4d4ec157a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "0443e30abb042b84",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "02ca71741b57f69a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "cf9c5823a0020edd",
+    "type": "split",
+    "children": [
+      {
+        "id": "fc2095cf4574bd46",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f3271adb10535fd8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Dashboard.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Dashboard"
+            }
+          },
+          {
+            "id": "fad9c429471db13f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Dashboard.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Dashboard"
+            }
+          },
+          {
+            "id": "cb505eb63eb0bdda",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "2e0ca4211492e0ef",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "7f8f0e665d556543",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Dashboard.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Dashboard"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "a172a405470ca242",
+  "lastOpenFiles": [
+    "Done/FILE_dashboard_test.txt.md",
+    "Logs/20260316_dashboard_test_processing.md",
+    "Plans/Plan_20260316_dashboard_test_processing.md",
+    "In_Progress/FILE_dashboard_test.txt.md",
+    "Needs_Action/FILE_dashboard_test.txt.md",
+    "Files/20260316_013722_dashboard_test.txt",
+    "Inbox/Drop/dashboard_test.txt",
+    "Done/FILE_gaming.txt.md",
+    "Plans/2026-03-16_Process_gaming_txt.md",
+    "In_Progress/FILE_gaming.txt.md",
+    "Needs_Action/FILE_gaming.txt.md",
+    "Files/20260316_013501_gaming.txt",
+    "Inbox/Drop/gaming.txt",
+    "Done/QWEN_TEST_NOW.md",
+    "Plans/Plan.md",
+    "Dashboard.md",
+    "In_Progress/QWEN_TEST_NOW.md",
+    "Needs_Action/QWEN_TEST_NOW.md",
+    "Logs/last_prompt.txt",
+    "In_Progress/TEST_QWEN_INTEGRATION.md",
+    "Needs_Action/TEST_QWEN_INTEGRATION.md",
+    "Inbox/Drop/test2.txt",
+    "In_Progress/FILE_invoice.txt.md",
+    "Needs_Action/FILE_invoice.txt.md",
+    "Files/20260316_011657_invoice.txt",
+    "Inbox/Drop/invoice.txt",
+    "Needs_Action/MANUAL_test.md",
+    "In_Progress/MANUAL_test.md",
+    "In_Progress/FILE_test_invoice.txt.md",
+    "Needs_Action/FILE_test_invoice.txt.md",
+    "Files/20260316_005340_test_invoice.txt",
+    "Inbox/Drop/test_invoice.txt",
+    "Needs_Action/FILE_testfile.md.md",
+    "In_Progress/FILE_testfile.md.md",
+    "In_Progress/FILE_Untitled.md.md",
+    "Inbox/Drop/Untitled.md"
+  ]
+}
