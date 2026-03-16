@@ -20,7 +20,7 @@ import os
 import shutil
 import subprocess
 import sys
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Optional, List
 
@@ -43,6 +43,7 @@ class Orchestrator:
 
         # Define folders
         self.needs_action = self.vault_path / 'Needs_Action'
+        self.inbox = self.vault_path / 'Inbox'
         self.in_progress = self.vault_path / 'In_Progress'
         self.plans = self.vault_path / 'Plans'
         self.pending_approval = self.vault_path / 'Pending_Approval'
@@ -147,12 +148,13 @@ class Orchestrator:
 
             if plan_created:
                 self.logger.info(f"Plan created for {in_progress_path.name}")
+                # Move to Pending_Approval instead of Done
+                pending_path = self.pending_approval / file_path.name
+                shutil.move(str(in_progress_path), str(pending_path))
+                self.logger.info(f"Moved to Pending_Approval: {file_path.name}")
             else:
                 self.logger.warning(f"No plan created for {in_progress_path.name}")
-
-            # Move back to Needs_Action if not complete
-            # (In full implementation, Qwen would move to Done when finished)
-            if in_progress_path.exists():
+                # Move back to Needs_Action if no plan
                 shutil.move(str(in_progress_path), str(file_path))
 
             return True
@@ -207,7 +209,7 @@ Start by analyzing the request and creating your plan.
             Qwen's response
         """
         try:
-            # Write prompt to a temp file for debugging (BEFORE changing directory)
+            # Write prompt to a temp file for debugging
             self.logs.mkdir(parents=True, exist_ok=True)
             debug_prompt = self.logs / 'last_prompt.txt'
             debug_prompt.write_text(prompt, encoding='utf-8')
@@ -222,10 +224,15 @@ Start by analyzing the request and creating your plan.
             # Full path to qwen cli
             qwen_cli_path = r"C:\Users\DELL\AppData\Roaming\npm\node_modules\@qwen-code\qwen-code\cli.js"
             
-            # Use shell command with full path - pipe prompt via stdin
-            # Qwen reads from stdin when no -p flag is used
-            cmd = f'echo {prompt.replace(chr(10), " ").replace(chr(34), " ")} | node "{qwen_cli_path}" -y'
-            self.logger.info(f"Running: {cmd}")
+            # Write prompt to temp file and pass via stdin redirection
+            # This avoids encoding and special character issues
+            import tempfile
+            temp_file = Path(tempfile.gettempdir()) / f"qwen_prompt_{os.getpid()}.txt"
+            temp_file.write_text(prompt, encoding='utf-8')
+            
+            # Use type command to pipe file content to qwen
+            cmd = f'type "{temp_file}" | node "{qwen_cli_path}" -y'
+            self.logger.info(f"Running Qwen with file input...")
             
             result = subprocess.run(
                 cmd,
@@ -233,8 +240,16 @@ Start by analyzing the request and creating your plan.
                 text=True,
                 timeout=300,
                 shell=True,
-                env={**os.environ, 'FORCE_COLOR': '0'}
+                env={**os.environ, 'FORCE_COLOR': '0'},
+                encoding='utf-8',
+                errors='replace'
             )
+            
+            # Clean up temp file
+            try:
+                temp_file.unlink()
+            except:
+                pass
 
             os.chdir(original_dir)
 
@@ -304,83 +319,214 @@ Start by analyzing the request and creating your plan.
         except Exception as e:
             self.logger.error(f"Error completing {item.name}: {e}")
 
+    def _get_recent_activities(self, limit: int = 5) -> list:
+        """Get recent activities from done folder."""
+        done_files = list(self.done.glob('*.md'))
+        # Sort by modification time, newest first
+        done_files.sort(key=lambda f: f.stat().st_mtime, reverse=True)
+        
+        activities = []
+        for f in done_files[:limit]:
+            timestamp = datetime.fromtimestamp(f.stat().st_mtime).strftime('%Y-%m-%d %H:%M')
+            activities.append({
+                'date': timestamp,
+                'action': f'Completed: {f.name}',
+                'status': '✅'
+            })
+        return activities
+
+    def _build_dashboard(self, inbox: int, needs: int, in_prog: int, pending: int,
+                         pending_items: list, done_today: int, done_week: int,
+                         done_month: int, activities: list) -> str:
+        """Build complete dashboard from scratch."""
+        
+        # Build pending items list
+        if pending_items:
+            pending_list = '\n'.join([f'- [ ] `{item}`' for item in pending_items[:5]])
+            pending_section = f"""### Pending Approval
+*{pending} items awaiting approval*
+
+{pending_list}"""
+        else:
+            pending_section = """### Pending Approval
+*No items awaiting approval*"""
+
+        # Build activity rows
+        if activities:
+            activity_rows = '\n'.join([
+                f"| {a['date']} | {a['action']} | {a['status']} |"
+                for a in activities
+            ])
+        else:
+            activity_rows = "| — | System initialized | ✅ |"
+
+        # Build status
+        watcher_status = '🟢 Running' if self._is_process_running('filesystem_watcher') else '🔴 Not running'
+        orchestrator_status = '🟢 Running' if self._is_process_running('orchestrator') else '🔴 Not running'
+
+        dashboard = f"""---
+last_updated: {datetime.now().strftime('%Y-%m-%dT%H:%M:%SZ')}
+status: active
+---
+
+# 📊 AI Employee Dashboard
+
+*Real-time overview of personal and business operations*
+
+---
+
+## 📬 Communication Queue
+
+| Channel | Unread | Urgent | Action Required |
+|---------|--------|--------|-----------------|
+| Gmail | 0 | 0 | 0 |
+| WhatsApp | 0 | 0 | 0 |
+
+---
+
+## 📊 Task Summary
+
+| Location | Count | Description |
+|----------|-------|-------------|
+| 📥 Inbox | {inbox} | Files waiting to be picked up |
+| ⚠️ Needs Action | {needs} | Items requiring processing |
+| 🔄 In Progress | {in_prog} | Items being processed by Qwen |
+| ⏳ Pending Approval | {pending} | Items awaiting your approval |
+| ✅ Done Today | {done_today} | Tasks completed today |
+| ✅ Done This Week | {done_week} | Tasks completed this week |
+
+---
+
+## ✅ Active Tasks
+
+### In Progress
+*{in_prog} items being processed*
+
+{pending_section}
+
+---
+
+## 📈 Weekly Metrics
+
+| Period | Tasks Completed | Status |
+|--------|-----------------|--------|
+| **Today** | {done_today} | {'✅ Active' if done_today > 0 else '⚪ No tasks'} |
+| **This Week** | {done_week} | {'✅ On Track' if done_week > 0 else '⚪ No tasks'} |
+| **This Month** | {done_month} | {'✅ Productive' if done_month > 0 else '⚪ No tasks'} |
+
+---
+
+## 📋 Recent Activity
+
+| Date | Action | Status |
+|------|--------|--------|
+{activity_rows}
+
+---
+
+## 🤖 AI Assistant Status
+
+| Component | Status | Last Check |
+|-----------|--------|------------|
+| File Watcher | {watcher_status} | Now |
+| Orchestrator | {orchestrator_status} | Now |
+| Qwen Code | 🟢 Ready | Available |
+
+---
+
+## 📅 Today's Schedule
+
+*No scheduled items*
+
+---
+
+## ⚡ Quick Actions
+
+- [ ] Sync bank transactions
+- [ ] Check email inbox
+- [ ] Review pending approvals ({pending} items)
+- [ ] Generate weekly briefing
+
+---
+
+*Last generated: {datetime.now().strftime('%Y-%m-%d %I:%M %p')}*
+*AI Employee v0.1 (Bronze Tier)*
+"""
+        return dashboard
+
     def update_dashboard(self):
-        """Update the Dashboard.md with current status."""
+        """Update the Dashboard.md with current status - complete rewrite approach."""
         try:
+            # Count files in each folder
+            inbox_count = len(list(self.inbox.glob('**/*'))) - len(list(self.inbox.glob('**/Drop/*')))
             needs_action_count = len(self.check_needs_action())
-            pending_approval_count = len(self.check_pending_approval())
             in_progress_count = len(list(self.in_progress.glob('*.md')))
+            pending_approval_count = len(self.check_pending_approval())
             done_today = len([
                 f for f in self.done.glob('*.md')
                 if datetime.fromtimestamp(f.stat().st_mtime).date() == datetime.now().date()
             ])
+            done_this_week = len([
+                f for f in self.done.glob('*.md')
+                if self._is_this_week(f.stat().st_mtime)
+            ])
+            done_this_month = len([
+                f for f in self.done.glob('*.md')
+                if self._is_this_month(f.stat().st_mtime)
+            ])
 
-            # Read current dashboard
-            if self.dashboard.exists():
-                content = self.dashboard.read_text(encoding='utf-8')
+            # Get pending items for display
+            pending_items = [f.name for f in self.pending_approval.glob('*.md')]
+            
+            # Get recent activity from logs
+            recent_activities = self._get_recent_activities()
 
-                # Update counts
-                content = self._update_dashboard_counts(
-                    content,
-                    needs_action_count,
-                    pending_approval_count,
-                    in_progress_count,
-                    done_today
-                )
+            # Build complete dashboard
+            content = self._build_dashboard(
+                inbox_count,
+                needs_action_count,
+                in_progress_count,
+                pending_approval_count,
+                pending_items,
+                done_today,
+                done_this_week,
+                done_this_month,
+                recent_activities
+            )
 
-                self.dashboard.write_text(content, encoding='utf-8')
-                self.logger.info("Dashboard updated")
+            self.dashboard.write_text(content, encoding='utf-8')
+            self.logger.info("Dashboard updated (full rewrite)")
 
         except Exception as e:
             self.logger.error(f"Error updating dashboard: {e}")
 
-    def _update_dashboard_counts(self, content: str, needs: int,
-                                  pending: int, in_prog: int, done: int) -> str:
-        """Update the counts in dashboard content."""
-        import re
+    def _is_this_week(self, timestamp: float) -> bool:
+        """Check if timestamp is in current week (Monday-Sunday)."""
+        from datetime import date
+        dt = datetime.fromtimestamp(timestamp)
+        today = date.today()
+        # Get Monday of this week
+        monday = today - timedelta(days=today.weekday())
+        return dt.date() >= monday
 
-        # Update Total Needs Action in Communication Queue table
-        content = re.sub(
-            r'\*\*Total Needs Action\*\*.*?\*\*\d+\*\*',
-            f'**Total Needs Action** | — | — | **{needs}**',
-            content,
-            flags=re.DOTALL
-        )
+    def _is_this_month(self, timestamp: float) -> bool:
+        """Check if timestamp is in current month."""
+        from datetime import date
+        dt = datetime.fromtimestamp(timestamp)
+        return dt.month == date.today().month and dt.year == date.today().year
 
-        # Update Recent Activity table - keep only last 10 entries
-        timestamp = datetime.now().strftime('%Y-%m-%d %H:%M')
-        new_row = f"| {timestamp} | Dashboard auto-update | ✅ |"
-
-        # Find the Recent Activity section and rebuild the table
-        activity_header = "| Date | Action | Status |"
-        if activity_header in content:
-            # Find start of activity section
-            start_idx = content.find(activity_header)
-            if start_idx != -1:
-                # Find the next section (--- after the table)
-                end_marker = "\n---\n\n##"
-                end_idx = content.find(end_marker, start_idx)
-                if end_idx == -1:
-                    end_idx = len(content)
-                
-                # Keep header and add new row + last 9 existing rows
-                header_line = activity_header + "\n|------|--------|--------|"
-                
-                # Extract existing rows (limit to 9)
-                existing_content = content[start_idx + len(activity_header):end_idx]
-                existing_rows = [line.strip() for line in existing_content.split('\n') 
-                                if line.strip().startswith('|') and 'Date' not in line and '---' not in line]
-                
-                # Keep only last 9 rows
-                existing_rows = existing_rows[-9:]
-                
-                # Build new activity section
-                new_activity = header_line + "\n" + new_row + "\n" + "\n".join(existing_rows)
-                
-                # Replace in content
-                content = content[:start_idx] + new_activity + content[end_idx:]
-
-        return content
+    def _is_process_running(self, process_name: str) -> bool:
+        """Check if a process is running."""
+        try:
+            result = subprocess.run(
+                ['tasklist'],
+                capture_output=True,
+                text=True,
+                shell=True
+            )
+            return process_name in result.stdout
+        except:
+            return False
 
     def _log_action(self, entry: dict):
         """Log an action to the logs folder."""
